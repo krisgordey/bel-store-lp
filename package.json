@@ -1,6 +1,6 @@
 {
-  "name": "My project boilerplate",
-  "version": "1.0",
+  "name": "myproject",
+  "version": "1.0.0",
   "private": true,
   "description": "My project boilerplate",
   "devDependencies": {
