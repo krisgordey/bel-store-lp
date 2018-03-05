@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>title</title>
     <link rel="stylesheet" href="css/style.min.css">
-    <!--<link rel="preload" href="/fonts/oswaldmedium.woff2" as="font">
-    <link rel="preload" href="/fonts/oswaldregular.woff2" as="font">-->
+    <link rel="preload" href="/fonts/Roboto-Thin.woff2" as="font">
+    <link rel="preload" href="/fonts/Roboto-Light.woff2" as="font">
+    <link rel="preload" href="/fonts/Roboto-Regular.woff2" as="font">
+    <link rel="preload" href="/fonts/Roboto-Medium.woff2" as="font">
+    <link rel="preload" href="/fonts/Roboto-Bold.woff2" as="font">
   </head>
   <body>
-    <!--<div style="display:none">
+    <div style="display:none">
       <include src="build/img/sprite/sprite.svg"></include>
-    </div>-->
+    </div>
     <header class="page-header">
       <div class="page-header__wrapper">
         <span class="page-header__info">сайт в разработке...</span>
@@ -21,25 +24,32 @@
         </div>
       </div>
     </header>
+    <section class="intro">
+      <div class="intro__slider">
+      </div>
+      <svg class="intro__logo" width="192" height="74">
+        <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#Bel-store_logo"></use>
+      </svg>
+    </section>
     <script src="js/svgxuse.min.js" async defer></script>
     <!--<script src="js/picturefill.min.js" async defer></script>-->
     <script src="js/script.js"></script>
-  <footer class="page-footer">
+    <footer class="page-footer">
       <div class="page-footer__wrapper">
-          <div class="idea">
-              <img class="idea__logo" src="#">
-              <p class="idea__text">Компания Bel Store (ООО «Константа Плюс») — дистрибьютер нижнего белья ведущих белорусских марок по ценам производителя. Доставка осуществляется по всей России.</p>
-          </div>
-          <div class="contacts">
-              <span class="contacts__header">КОНТАКТЫ</span>
-              <span class="contacts__phone">+7 (962) 932-57-04</span>
-              <span class="contacts__mail">info@bel-store.ru</span>
-              <span class="contacts__address"115230, г. Москва, ш. Каширское д. 3, стр. 2, к. 2, пом. 1, офис 62</span>
-          </div>
+        <div class="idea">
+          <img class="idea__logo" src="#">
+          <p class="idea__text">Компания Bel Store (ООО «Константа Плюс») — дистрибьютер нижнего белья ведущих белорусских марок по ценам производителя. Доставка осуществляется по всей России.</p>
+        </div>
+        <div class="contacts">
+          <span class="contacts__header">КОНТАКТЫ</span>
+          <span class="contacts__phone">+7 (962) 932-57-04</span>
+          <span class="contacts__mail">info@bel-store.ru</span>
+          <span class="contacts__address"115230, г. Москва, ш. Каширское д. 3, стр. 2, к. 2, пом. 1, офис 62</span>
+        </div>
           <div class="copyright">
               <span>©   Все права защищены. Bel-store.</span>
           </div>
       </div>
-  </footer>
+    </footer>
   </body>
 </html>
