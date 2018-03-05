@@ -1,0 +1,23 @@
+.contacts {
+  font-weight: 300;
+  line-height: 30px;
+  color: #ffffff;
+  font-family: Roboto;
+  display: flex;
+  width: 283px;
+  flex-direction: column;
+  margin-bottom: 33px;
+  margin-right: 28px;
+}
+
+.contacts__header {
+  color: #996b93;
+  font-family: "Open Sans";
+  font-weight: 700;
+  letter-spacing: 0.45px;
+  line-height: 35px;
+}
+
+.contacts__address {
+  line-height: 20px;
+}
