@@ -1,7 +1,6 @@
 .page-header {
   display: block;
   width: 1200px;
-  height: 49px;
   background-color: #2e2430;
   margin: 0 auto;
 }
@@ -11,6 +10,8 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  min-height: 49px;
+  align-items: center;
 }
 
 .page-header__info {
@@ -18,16 +19,31 @@
   font-family: Roboto;
   font-size: 14px;
   font-weight: 300;
-  line-height: 60px;
 }
 
 .page-header__contacts {
   color: #ffffff;
-font-family: Roboto;
-font-size: 14px;
-font-weight: 300;
-line-height: 60px;
-width: 267px;
-display: flex;
-justify-content: space-between;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 300;
+  width: 267px;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.page-header__contacts::before {
+  content: "I";
+  position: absolute;
+  right: 48%;
+}
+
+.page-header__contacts--phone {
+  display: block;
+  width: 127px;
+}
+
+.page-header__contacts--mail {
+  display: block;
+  width: 114px;
 }

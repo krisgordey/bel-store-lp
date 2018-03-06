@@ -19,8 +19,8 @@
       <div class="page-header__wrapper">
         <span class="page-header__info">сайт в разработке...</span>
         <div class="page-header__contacts">
-            <span >+7 (962) 932-57-04</span>
-            <span>info@bel-store.ru</span>
+            <span class="page-header__contacts--phone">+7 (962) 932-57-04</span>
+            <span class="page-header__contacts--mail">info@bel-store.ru</span>
         </div>
       </div>
     </header>
@@ -31,25 +31,70 @@
         <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#Bel-store_logo"></use>
       </svg>
     </section>
-    <script src="js/svgxuse.min.js" async defer></script>
-    <!--<script src="js/picturefill.min.js" async defer></script>-->
-    <script src="js/script.js"></script>
+    <section class="cooperation">
+      <div class="cooperation__inner">
+        <h2 class="cooperation__header">СОТРУДНИЧЕСТВО</h2>
+        <div class="cooperation__text">
+          <p class="cooperation__text--small">Стать нашим партнером очень легко — просто напишите или позвоните нам</p>
+          <p class="cooperation__text--long">Сотрудничая с нами, вы получаете максимальную выгоду — мы предлагаем цены производителя и безупречный сервис. Весь товар находится на складе в Москве и будет оперативно доставлен в любую точку России без дополнительных наценок.</p>
+        </div>
+        <div class="cooperation__contacts">
+          <div class="cooperation__mail">
+            <a href="mailto:info@bel-store.ru"> info@bel-store.ru</a>
+          </div>
+          <div class="cooperation__phone">
+            <a href="tel:+7-962-932-57-04">+ 7 (962) 932-57-04</a>
+          </div>
+        </div>
+      </div>
+      <div class="cooperation__photo">
+        <picture>
+          <source type="image/webp" src="img/pic-lady.webp">
+          <img src="img/pic-lady.png">
+        </picture>
+      </div>
+    </section>
+    <section class="new">
+      <div class="new__subscription">
+        <h3 class="new__header">ПОДПИШИТЕСЬ НА НОВОСТИ</h3>
+        <form class="new__form">
+          <input class="new__input" value="Ваша почта">
+          <button class="new__button" type="submit" name="submit">Отправить</button>
+        </form>
+      </div>
+      <div class="new__serge">
+        <div class="new__logo">
+          <picture>
+            <source type="image/webp" src="img/serge-logo.webp">
+            <img src="img/serge-logo.png">
+          </picture>
+        </div>
+        <p class="new__description">Полный ассортимент и актуальные новинки бренда SERGE на складе в Москве.</p>
+      </div>
+      <div class="new__slider">
+      </div>
+    </section>
     <footer class="page-footer">
       <div class="page-footer__wrapper">
         <div class="idea">
-          <img class="idea__logo" src="#">
+          <svg class="idea__logo" width="124" height="48">
+            <use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#Bel-store_logo"></use>
+          </svg>
           <p class="idea__text">Компания Bel Store (ООО «Константа Плюс») — дистрибьютер нижнего белья ведущих белорусских марок по ценам производителя. Доставка осуществляется по всей России.</p>
         </div>
         <div class="contacts">
           <span class="contacts__header">КОНТАКТЫ</span>
           <span class="contacts__phone">+7 (962) 932-57-04</span>
           <span class="contacts__mail">info@bel-store.ru</span>
-          <span class="contacts__address"115230, г. Москва, ш. Каширское д. 3, стр. 2, к. 2, пом. 1, офис 62</span>
+          <span class="contacts__address">115230, г. Москва, ш. Каширское д. 3, стр. 2, к. 2, пом. 1, офис 62</span>
         </div>
           <div class="copyright">
               <span>©   Все права защищены. Bel-store.</span>
           </div>
       </div>
     </footer>
+    <script src="js/svgxuse.min.js" async defer></script>
+    <!--<script src="js/picturefill.min.js" async defer></script>-->
+    <script src="js/script.js"></script>
   </body>
 </html>

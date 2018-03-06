@@ -1,0 +1,73 @@
+.new {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+.new__subscription {
+  width: 378px;
+  height: 365px;
+  margin-left: 26px;
+  margin-top: 26px;
+  background: url(../img/3-layers.png) no-repeat center;
+}
+
+.new__header {
+  font-family: "Roboto";
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 35px;
+  text-transform: uppercase;
+  display: block;
+  width: 203px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 61px;
+  margin-top: 157px;
+  color: #ffffff;
+}
+
+.new__form {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.new__input {
+  background-color: transparent;
+  border: none;
+  color: #ffffff;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 44px;
+}
+
+.new__button {
+  background-color: transparent;
+  border: none;
+  background-image: url(../img/3-layers.png);
+}
+.new__serge {
+  width: 300px;
+  text-align: center;
+  padding-top: 105px;
+}
+
+.new__logo {
+  margin-bottom: 47px;
+}
+.new__description {
+  color: #3f3f3f;
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 25px;
+  display: block;
+  width: 196px;
+  margin: 0 auto;
+}
+
+.new__slider {
+  width: 450px;
+}
