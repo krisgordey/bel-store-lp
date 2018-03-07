@@ -1,16 +1,87 @@
 .intro {
-  width: 1300px;
+  width: 1200px;
   margin: 0 auto;
   min-height: 573px;
   padding-top: 50px;
   padding-left: 50px;
+  padding-right: 50px;
+  display: flex;
+  position: relative;
 }
 
 .intro__slider {
   width: 699px;
   height: 522px;
+  margin: 0;
+  flex-shrink: 0;
+  visibility: hidden //переключение visibility для избавления от отображения слайдов до ицициализации слайдера
+}
+
+.intro__slider.slick-initialized {
+  visibility: visible //переключение visibility для избавления от отображения слайдов до ицициализации слайдера
+}
+
+.intro__slider .slider-button-next {
+  right: 21px;
+}
+
+.intro__slider .slider-button-prev {
+  left: 21px;
+}
+
+.intro__slide {
+  width: 699px;
+  height: 522px;
+  &-1 {
+    background: url(../img/pic-1.jpg) #777777
+  }
+  &-2 {
+    background: url(../img/pic-2.jpg) #777777
+  }
+  &-3 {
+    background: url(../img/pic-3.jpg) #777777
+  }
+  &-4 {
+    background: url(../img/pic-4.jpg) #777777
+  }
+  &-5 {
+    background: url(../img/pic-5.jpg) #777777
+  }
+}
+
+.intro__content {
+  padding-left: 58px;
+  padding-top: 56px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .intro__logo {
   fill: #292425;
+  margin-bottom: 51px;
+  transform: translateX(-36px);
+  width: 265px;
+  height: 102px;
+}
+
+.intro__text {
+  color: #3f3f3f;
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 35px;
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.intro__text--main {
+  margin-bottom: 32px;
+}
+
+.intro__link {
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #9e7b9c;
+  font-weight: 700;
+  border-bottom: 1px solid #9e7b9c;
 }
